@@ -1,12 +1,4 @@
-# Language Style Transfer
-This repo contains the code and data of the following paper:
-
-<i> "Style Transfer from Non-Parallel Text by Cross-Alignment". Tianxiao Shen, Tao Lei, Regina Barzilay, and Tommi Jaakkola. NIPS 2017. [arXiv](https://arxiv.org/abs/1705.09655)</i>
-
-The method learns to perform style transfer between two non-parallel corpora. For example, given positive and negative reviews as two corpora, the model can learn to reverse the sentiment of a sentence.
-<p align="center"><img width=800 src="img/example_sentiment.png"></p>
-
-<br>
+# Semantics Style Transfer
 
 
 ## Data Format
@@ -52,3 +44,4 @@ python classifier.py --test  --test_transfer ../gyafc_baseline/ --model ../class
 
 ## Dependencies
 Python >= 3.5, TensorFlow 1.15
+
